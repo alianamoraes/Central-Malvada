@@ -1,0 +1,17 @@
+.global-header .global-nav{margin-left:auto}
+.header-actions{display:flex;align-items:center;gap:22px;flex-shrink:0}
+.language-switcher{position:relative;display:flex;align-items:center;gap:8px;color:#e5edf6;flex-shrink:0}
+.language-switcher select{appearance:none;-webkit-appearance:none;border:0;border-radius:0;background:transparent;color:inherit;font:400 10px/1.5 var(--body);width:94px;padding:9px 15px 9px 0;cursor:pointer;outline-offset:4px}
+.language-switcher select option{background:#151617;color:white;font:400 13px var(--body)}
+.language-switcher select:focus-visible{outline:1px solid #b9d9f2}
+.language-switcher>svg:last-of-type{position:absolute;right:0;pointer-events:none}
+.language-switcher>svg:first-of-type{flex-shrink:0}
+html[lang=en] .home-band-content h2{font-size:clamp(40px,4.7vw,74px)}
+html[lang=en] .inner-page .staggered-title h2{font-size:clamp(55px,6.1vw,92px)}
+html[lang=en] .inner-page .contact h2{font-size:clamp(55px,5.9vw,92px)}
+@media(max-width:1600px){.global-header .header-tagline{display:none}}
+@media(max-width:1100px){.global-header{gap:23px}.global-header .global-nav{gap:20px}.header-actions{gap:18px}.language-switcher{gap:7px}.language-switcher select{width:89px;font-size:9px}}
+@media(max-width:800px){.header-actions{margin-left:auto;gap:23px}.global-header{gap:20px}.global-header .global-nav{margin-left:0;gap:15px}.language-switcher select{font-size:10px;width:94px}html[lang=en] .home-band-content h2{font-size:5.2vw}html[lang=en] .inner-page .staggered-title h2{font-size:62px}html[lang=en] .inner-page .contact h2{font-size:70px}}
+@media(max-width:540px){.header-actions{gap:20px}.language-switcher{gap:6px}.language-switcher select{width:86px;font-size:9px;padding-top:8px;padding-bottom:8px}.language-switcher>svg:first-of-type{width:13px}.global-header .menu-toggle{font-size:8px;gap:9px}.global-header{padding-left:22px;padding-right:22px}html[lang=en] .home-band-content h2{font-size:5.6vw;line-height:1}html[lang=en] .home-join h2{font-size:14vw}html[lang=en] .release-center h2{font-size:8.4vw}html[lang=en] .inner-page .staggered-title h2{font-size:49px}html[lang=en] .inner-page .contact h2{font-size:12vw}html[lang=es] .inner-page .contact h2{font-size:13vw}html[lang=en] .home-statement h2>span{font-size:.41em}.global-footer-bottom{flex-wrap:wrap}.page-topline{flex-wrap:wrap}}
+@media(max-width:360px){.header-actions{gap:15px}.language-switcher select{width:80px;font-size:9px}.global-header .menu-toggle{gap:7px}.global-header .menu-toggle svg{width:17px}html[lang=en] .inner-page .staggered-title h2{font-size:44px}html[lang=en] .home-band-content h2{font-size:5.5vw}}
+@media(max-width:540px){html[lang=es] #agenda-title{font-size:clamp(42px,11vw,59px)}}

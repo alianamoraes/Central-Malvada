@@ -1,0 +1,24 @@
+# Dependências e artefatos de compilação
+node_modules/
+dist/
+portable/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs e arquivos do sistema
+*.log
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Configurações pessoais de editores
+.idea/
+.vscode/
